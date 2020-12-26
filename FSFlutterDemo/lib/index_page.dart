@@ -103,9 +103,10 @@ class _IndexPageState extends State<IndexPage> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(
-          Icons.local_mall,
-          size: 30,
+        child: Image.asset(
+          'images/home_selected.png',
+          width: 24,
+          height: 24,
         ),
         onPressed: () {
           setState(() {
@@ -113,8 +114,7 @@ class _IndexPageState extends State<IndexPage> {
             currentPage = tabPages[2];
           });
         },
-        backgroundColor: Colors.orange,
-        foregroundColor: Colors.black,
+        backgroundColor: Colors.red,
         elevation: 5,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
