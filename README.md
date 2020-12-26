@@ -388,12 +388,10 @@ Widget build(BuildContext context) {
 
 
 
-
-
-
-
 ---
 
 > **个人博客:** 🏡 [ForgetSou](https://forgetsou.github.io)
+>
+> **简书:** [Flutter-创建底部导航栏](https://www.jianshu.com/p/bc1b1ee4a7ef)
 
 ---
