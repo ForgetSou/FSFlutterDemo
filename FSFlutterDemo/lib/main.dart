@@ -10,10 +10,9 @@ class MyApp extends StatelessWidget {
     // final wordPair = new WordPair.random();
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      // home: IndexPage(),
       home: IndexPage(),
       theme: new ThemeData(
-        primaryColor: Colors.orange,
+        primaryColor: Color.fromRGBO(255, 145, 0, 1),
       ),
     );
   }
